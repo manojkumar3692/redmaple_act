@@ -1,0 +1,151 @@
+.logged_out_referral div, .logged_out_referral p, .logged_out_referral span, .logged_out_referral a {
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.logged_out_referral .section-heading {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.56;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.logged_out_referral .section-sd {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+    padding: 30px 20px;
+}
+
+.logged_out_referral .section-sd .section-heading {
+    margin-top: 25px
+}
+
+
+
+section.section-sd .positions {
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    margin-top: 10px
+}
+
+section.section-sxt {
+    background-color: #f2f7fe;
+    padding: 40px 20px
+}
+
+section.section-sxt .apply-now-heading {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center
+}
+
+.all-positions .col-md-3 {
+    min-height: 200px
+}
+
+@media (max-width: 767px) {
+    section.section-sd .positions {
+        text-align: center
+    }
+
+    .login-btn-ct {
+        width: 40%
+    }
+    .all-positions .col-md-3 {
+        min-height: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    section.section-sd .positions {
+        text-align: center
+    }
+}
+
+@media (min-width: 321px) and (max-width: 380px) {
+
+    section.section-sd .positions {
+        text-align: center
+    }
+}
+
+@media (min-width: 381px) and (max-width: 412px) {
+
+    section.section-sd .positions {
+        text-align: center
+    }
+}
+
+
+
+
+.footer-pages {
+    float: left
+}
+
+#hire_footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.28)), to(rgba(153, 171, 255, 0.28)));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.28), rgba(153, 171, 255, 0.28));
+    bottom: 0;
+    width: 100%;
+    padding: 80px 30px;
+    border-top: solid #f7f9fe thin
+}
+
+#hire_footer .list_title {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2.25;
+    letter-spacing: 0.8px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+#hire_footer .footer-pages ul {
+    list-style: none
+}
+
+#hire_footer .footer-pages ul li {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.8px;
+    color: rgba(0, 0, 0, 0.54)
+}
+.list_title {
+    margin-bottom: 7px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-pages li {
+        text-align: left;
+    }
+}
+
+.footer-pages a:hover, a:focus {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.footer-pages a:active, a:hover {
+    outline: 0;
+}
+
+.footer-pages a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.get-started-free span {
+    color: #FFFFFF !important;
+}
+
+/*!
+* Datetimepicker for Bootstrap 3
+* version : 4.17.47
+* https://github.com/Eonasdan/bootstrap-datetimepicker/
+
