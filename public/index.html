@@ -18,13 +18,15 @@
         <script defer src="/__/firebase/6.3.4/firebase-storage.js"></script>
         <!-- initialize the SDK after all desired features are loaded -->
         <script defer src="/__/firebase/init.js"></script>
-    <link rel="shortcut icon" href="../img/logos/favicon.png" />
-    <link rel="apple-touch-icon" href="../img/logos/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="../img/logos/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="../img/logos/apple-touch-icon-114x114.png" />
+    <link rel="shortcut icon" href="img/logos/favicon.png" />
+    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/plugin/flexboxgrid-6.3.1/css/flexboxgrid.css" />
-    <link href="../css/style.css" rel="stylesheet" id="colors" />
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="css/plugin/animate.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/plugin/flexboxgrid-6.3.1/css/flexboxgrid.css" />
+    <link href="css/style.css" rel="stylesheet" id="colors" />
     
 </head>
 
@@ -34,38 +36,60 @@
     <div class="homeHeader">
         <div class="row middle-xs fullHeight">
         <div class="col-xs-4 homeHeader__logo">
-          <img src="../img/logos/logo.png"/>
+          <img src="./img/logos/logo.png"/>
         </div>
         <div class="col-xs-8 homeHeader__nav">
-            <ul>
-              <li>
-                  <a>Home</a>
-              </li>
-              <li>
-                <a>About</a>
-              </li>
-              <li>
-                <a>Service</a>
-              </li>
-              <li>
-                <a>News</a>
-              </li>
-              <li>
-                <a>Media</a>
-              </li>
-              <li>
-                <a>Location</a>
-              </li>
-              <li>
-                <a>Contact</a>
-              </li>
-            </ul>
+          <div class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#news">ABOUT</a>
+            
+            <div class="dropdown">
+              <button class="dropbtn">SERVICE 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="service_page/rental_of_construction_equipment.html">Rental of Construction Equipment</a>
+                <a href="service_page/silent_demolition_contracts.html">Silent Demolition Contracts</a>
+                <a href="service_page/act_recycling.html">ACT Recycling</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <button class="dropbtn">DEALERSHIP
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="delearship_page/volvo.html">Volvo Construction Equipment</a>
+                <a href="delearship_page/epiroc.html">Epiroc </a>
+                <a href="delearship_page/camac.html">Camac - Hoist & Platforms</a>
+                <a href="delearship_page/leibherr.html">Leibherr</a>
+                <a href="delearship_page/wacket.html">Wacker Neuson</a>
+                <a href="http://www.ultrafloorsolutions.com/">Ultra Floor - Polished & Decorative Concrete Floors</a>
+                <a href="delearship_page/sdlg.html">SDLC</a>
+                <a href="delearship_page/dynaset.html">Dynaset</a>
+                <a href="delearship_page/volvo-penta.html">Volvo Penta</a>
+                <a href="delearship_page/linde.html">Linde Material Handling</a>
+
+              </div>
+            </div> 
+            <a href="#news">MEDIA</a>
+            <a href="#home">LOCATION</a>
+            <div class="dropdown">
+              <button class="dropbtn">COMPANY 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="company/about_us.html">ABOUT US</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+          </div>
         </div>
       </div>
     </div>  
     <div class="homeBanner">
-      <div class="homeBanner__content">
-        <h1>POWERFL TRANSPORT</h1>
+      <div class="homeBanner__content animated fadeInLeftBig delay-2s">
+        <h1>POWERFUL TRANSPORT</h1>
         <h1>AND LOGISTICS SOLUTION</h1>
       </div>
     </div>
@@ -77,13 +101,13 @@
 
     <div class="homeEquip">
         <div class="homeEquip__title">
-          <h1>OUR BRANDS</h1>
+          <h1>OUR DEALERSHIPS</h1>
         </div>
         <div class="homeEquip__list">
           <div class="row">
             <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
               <div class="homeEquip__product--image">
-              <img src="../img/images/product_white.png" />
+              <img src="./img/dealers/VOLVO.jpg" />
               </div>
               <div class="homeEquip__product--title">
                 <h1>VOLVO</h1>
@@ -91,7 +115,7 @@
             </div>
              <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
               <div class="homeEquip__product--image">
-              <img src="../img/images/product_white.png" />
+                <img src="./img/dealers/Volvo Penta.jpg" />
               </div>
               <div class="homeEquip__product--title">
                 <h1>VOLVO PENTA</h1>
@@ -99,7 +123,7 @@
             </div>
              <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
               <div class="homeEquip__product--image">
-              <img src="../img/images/product_white.png" />
+                <img src="./img/dealers/SDLG.jpg" />
               </div>
               <div class="homeEquip__product--title">
                 <h1>SDLG</h1>
@@ -107,7 +131,7 @@
             </div>
              <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
               <div class="homeEquip__product--image">
-              <img src="../img/images/product_white.png" />
+                <img src="./img/dealers/Liebherr.jpg" />
               </div>
               <div class="homeEquip__product--title">
                 <h1>LEIBHERR</h1>
@@ -115,7 +139,7 @@
             </div>
              <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
               <div class="homeEquip__product--image">
-              <img src=".,/img/images/product_white.png" />
+                <img src="./img/dealers/Linde.jpg" />
               </div>
               <div class="homeEquip__product--title">
                 <h1>LINDA</h1>
@@ -123,10 +147,26 @@
             </div>
              <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
               <div class="homeEquip__product--image">
-              <img src="../img/images/product_white.png" />
+                <img src="./img/dealers/Epiroc.jpg" />
               </div>
               <div class="homeEquip__product--title">
                 <h1>EPIROC</h1>
+              </div>
+            </div>
+            <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
+              <div class="homeEquip__product--image">
+                <img src="./img/dealers/Dynaset.jpg" />
+              </div>
+              <div class="homeEquip__product--title">
+                <h1>DYNASET</h1>
+              </div>
+            </div>
+            <div class="homeEquip__product col-lg-4 col-md-6 col-xs-12">
+              <div class="homeEquip__product--image">
+                <img src="./img/dealers/WACKER NEUSON.jpg" />
+              </div>
+              <div class="homeEquip__product--title">
+                <h1>WACKER NEUSON</h1>
               </div>
             </div>
               </div>
@@ -141,21 +181,13 @@
 
     <div class="homeProducts">
       <div class="homeProducts__title">
-        <h1>VOLVO - CONSTRUCTION EQUIPMENT</h1>
+        <h1>OUR PRODUCTS</h1>
       </div>
       <div class="homeProducts__list">
         <div class="row">
           <div class="homeProducts__product col-lg-4 col-md-6 col-xs-12">
             <div class="homeProducts__product--image">
-            <img src="../img/images/product_1.png" />
-            </div>
-            <div class="homeProducts__product--title">
-              <h1>WHEEL LOADER</h1>
-            </div>
-          </div>
-           <div class="homeProducts__product col-lg-4 col-md-6 col-xs-12">
-            <div class="homeProducts__product--image">
-            <img src="../img/images/product_1.png" />
+            <img src="./img/Products/Volvo - Construction Equipment/Crawler Excavator.png" />
             </div>
             <div class="homeProducts__product--title">
               <h1>CRAWLER EXCAVATOR</h1>
@@ -163,15 +195,15 @@
           </div>
            <div class="homeProducts__product col-lg-4 col-md-6 col-xs-12">
             <div class="homeProducts__product--image">
-            <img src="../img/images/product_1.png" />
+              <img src="./img/Products/Volvo - Construction Equipment/Wheel Loader.png" />
             </div>
             <div class="homeProducts__product--title">
-              <h1>ASPHALT COMPACTOR</h1>
+              <h1>WHEEL LOADER</h1>
             </div>
           </div>
            <div class="homeProducts__product col-lg-4 col-md-6 col-xs-12">
             <div class="homeProducts__product--image">
-            <img src="./img/images/product_1.png" />
+              <img src="./img/Products/Volvo - Construction Equipment/Articulated Hauler.png" />
             </div>
             <div class="homeProducts__product--title">
               <h1>ARTICULATED HAULER</h1>
@@ -179,15 +211,23 @@
           </div>
            <div class="homeProducts__product col-lg-4 col-md-6 col-xs-12">
             <div class="homeProducts__product--image">
-            <img src="./img/images/product_1.png" />
+            <img src="./img/Products/Volvo - Road Machinery/Socil Compactor.png" />
             </div>
             <div class="homeProducts__product--title">
-              <h1>PNEUMATIC TYRE ROLLER</h1>
+              <h1>SOIL COMPACTOR</h1>
             </div>
           </div>
            <div class="homeProducts__product col-lg-4 col-md-6 col-xs-12">
             <div class="homeProducts__product--image">
-            <img src="./img/images/product_1.png" />
+            <img src="./img/Products/SDLG/Wheel Loaders.png" />
+            </div>
+            <div class="homeProducts__product--title">
+              <h1>WHEEL LOADERS</h1>
+            </div>
+          </div>
+           <div class="homeProducts__product col-lg-4 col-md-6 col-xs-12">
+            <div class="homeProducts__product--image">
+            <img src="./img/Products/SDLG/Motor Graders.png" />
             </div>
             <div class="homeProducts__product--title">
               <h1>MOTOR GRADES</h1>
@@ -197,8 +237,47 @@
         </div>
       </div>
     </div>
-
+    <div class="footerSection">
+        <footer>
+            <section class="footer">
+              <div>
+                <div class="footer__logo">
+                  <img src="../img/logos/logo.png"/>
+                </div>
+                <p class="footer__text">
+                        After 25years of excellance in the field of construction,
+                        ACT is still a leader in providing construction solutions
+                        in the forms of equipment and service solutions.
+                </p>
+              </div>
+              <div class="footer__nav">
+                <ul>
+                  <li class={activeFooter}>Services</li>
+                  <li>Rental of Construction Equipment</li>
+                  <li>Silent Demolition Contracts</li>
+                  <li>ACT Recycling</li>
+                </ul>
+              </div>
+              <div class="footer__nav">
+                <ul>
+                  <li class="activeFooter">Dealerships</li>
+                  <li>Volvo - Construction Equipment</li>
+                  <li>Epiroc</li>
+                  <li>WACKER NEUSON</li>
+                </ul>
+              </div>
+              <div class="footer__nav">
+                <ul>
+                  <li class="activeFooter">Contanct</li>
+                  <li>Chennai Center</li><li>+91-44 33511777</li>
+                  <li>Salem Center</li><li>+91 9176658350</li>
+                </ul>
+              </div>
+            </section>
+          </footer>
+    </div>
   </section>
+  
   <script>
       document.addEventListener('DOMContentLoaded', function() {
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
