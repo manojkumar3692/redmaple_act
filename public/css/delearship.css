@@ -380,7 +380,7 @@
 
 	.wrapper.style2 {
 		background: #ececec;
-		padding: 6rem;
+		/* padding: 6rem; */
 	}
 
 		.wrapper.style2 header {
@@ -497,17 +497,17 @@
 				text-align: center;
 				margin-top: 15px; }
 				.homeProducts__product--title h1 {
-				  font-size: 28px;
+				  font-size: 24px;
 				  font-weight: 400;
 				  color: #000;
 				  font-family: 'Anton', sans-serif; }
 
 				  .homeHeader {
-					position: absolute;
+					position: fixed;
 					top: 0px;
-					height: 60px;
+					height: 70px;
 					width: 100%;
-					background: #2D2D1A; }
+					background: #25282E; }
 					.homeHeader__logo img {
 					  width: 100px; }
 					.homeHeader__nav {
@@ -521,7 +521,7 @@
 						color: #fff;
 						text-align: center;
 						text-decoration: none;
-						margin-left: 12px; }
+						 }
 					  .homeHeader__nav .dropdown {
 						float: left;
 						overflow: hidden; }
@@ -549,7 +549,7 @@
 						display: block;
 						text-align: left;
 						padding: 1rem 1rem;
-						margin: 1rem 1rem; }
+						 }
 					  .homeHeader__nav .dropdown-content a:hover {
 						background-color: #ddd; }
 					  .homeHeader__nav .dropdown:hover .dropdown-content {
@@ -578,7 +578,7 @@
 								  width: 100%; }
 								  .footer {
 									box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-									background-color: #7d7d7d;
+									background-color: #25282E;
 									padding: 52px 42px;
 									display: flex;
 									align-items: flex-start; }

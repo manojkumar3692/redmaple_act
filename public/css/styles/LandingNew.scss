@@ -29,22 +29,22 @@
 }
 
 .homeHeader {
-    box-shadow: 0px -7px 4px -1px #e9e9e9;
-  border-radius: 5px;
+    // box-shadow: 0px -7px 4px -1px #e9e9e9;
+  // border-radius: 5px;
   padding:0px 15px;
-  position: absolute;
-    top: 30px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);    
-  height: 60px;
-  width: 1024px;
+  position: fixed;
+    // top: 30px;
+    // left: 50%;
+    // -webkit-transform: translateX(-50%);
+    // -moz-transform: translateX(-50%);
+    // -ms-transform: translateX(-50%);
+    // transform: translateX(-50%);    
+  height: 75px;
+  width: 100%;
   background: #fff;
   &__logo {
     img {
-      width: 100px;
+      width: 150px;
     }
   }
   &__nav {
@@ -60,7 +60,7 @@
       text-align: center;
       // padding: 14px 16px;
       text-decoration: none;
-      margin-left: 12px;
+      // margin-left: 12px;
     }
     
     .dropdown {
@@ -102,7 +102,7 @@
       display: block;
       text-align: left;
       padding: 1rem 1rem;
-      margin: 1rem 1rem;
+      // margin: 1rem 1rem;
     }
     
     .dropdown-content a:hover {
@@ -165,8 +165,17 @@
 
   }
   &__product {
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+      transition: 1s ease-in-out;
+    }
     margin-bottom: 15px;
     &--image {
+      &:hover {
+        transform: scale(1.1);
+        transition: 1s ease-in-out;
+      }
       text-align: center;
       img {
         width: 350px; 
@@ -218,7 +227,7 @@
       text-align: center;
       margin-top: 15px;
       h1 {
-         font-size: 28px;
+         font-size: 24px;
          font-weight: 400;
          font-family: 'Anton', sans-serif;
          color: #000;
@@ -298,12 +307,24 @@
         img {
           width: 100%;
         }
+        &:hover {
+          transform: scale(1.1);
+          transition: 1s ease-in-out;
+        }
       }
     }
   }
    .homeEquip {
     &__product {
+      &:hover {
+        transform: scale(1.1);
+        transition: 1s ease-in-out;
+      }
       &--image {
+         &:hover {
+      transform: scale(1.1);
+      transition: 1s ease-in-out;
+    }
         img {
           width: 100%;
         }
@@ -327,7 +348,7 @@
 
 .footer {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  background-color: #7d7d7d;
+  background-color: #25282E;
   padding: 52px 42px;
   display: flex;
   align-items: flex-start;
